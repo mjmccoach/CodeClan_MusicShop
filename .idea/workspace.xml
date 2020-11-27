@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c895bb01-acb7-4e79-b2c9-081d962c26ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Accessories/Accessory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Accessories/Drumsticks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Accessories/Plectrum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Accessories/SheetMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Accessories/AccessoriesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviours/IPlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Drums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Drums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Instruments/DrumsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/DrumsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Accessories/AccessoriesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Accessories/AccessoriesTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -46,7 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.AccessoriesTest">
+  <component name="RunManager" selected="JUnit.DrumsTest">
     <configuration name="AccessoriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanMusicShop" />
       <extension name="coverage">
@@ -58,6 +59,22 @@
       <option name="PACKAGE_NAME" value="Accessories" />
       <option name="MAIN_CLASS_NAME" value="Accessories.AccessoriesTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccessoriesTest.canSetRetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanMusicShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Accessories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Accessories" />
+      <option name="MAIN_CLASS_NAME" value="Accessories.AccessoriesTest" />
+      <option name="METHOD_NAME" value="canSetRetail" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,9 +126,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DrumsTest" />
+        <item itemvalue="JUnit.AccessoriesTest.canSetRetail" />
         <item itemvalue="JUnit.AccessoriesTest" />
         <item itemvalue="JUnit.KeyboardTest" />
-        <item itemvalue="JUnit.DrumsTest" />
         <item itemvalue="JUnit.GuitarTest" />
       </list>
     </recent_temporary>
@@ -130,26 +148,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1606506981625">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1606507616762">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1606506981625" />
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1606507423526">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1606507616762" />
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1606507682904">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1606507423526" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1606507423525">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1606507682904" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1606507682903">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1606507423525" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1606507423524">
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1606507682903" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1606507682903">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1606507423524" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1606507423525">
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1606507682903" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1606507682904">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1606507423525" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1606507682904" />
     <state x="419" y="111" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606501577781">
       <screen x="0" y="23" width="1280" height="709" />
     </state>

@@ -23,4 +23,9 @@ public class DrumsTest {
         drums.setDrumNumber(6);
         assertEquals(6, drums.getDrumNumber());
     }
+
+    @Test
+    public void canPlay() {
+        assertEquals("Bang Bang!", drums.play());
+    }
 }
