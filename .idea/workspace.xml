@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c895bb01-acb7-4e79-b2c9-081d962c26ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Instruments/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/GuitarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/Drums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Instruments/DrumsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1kstTCMEJNVk73XKCIs6UeaBZ6w" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,7 +43,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DrumsTest">
+    <configuration name="DrumsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanMusicShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Instruments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Instruments" />
+      <option name="MAIN_CLASS_NAME" value="Instruments.DrumsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanMusicShop" />
       <extension name="coverage">
@@ -57,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DrumsTest" />
         <item itemvalue="JUnit.GuitarTest" />
       </list>
     </recent_temporary>
@@ -75,10 +95,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1606501550024">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1606502594080">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1606501550024" />
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1606502594080" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1606502433644">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
