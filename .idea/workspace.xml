@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c895bb01-acb7-4e79-b2c9-081d962c26ba" name="Default Changelist" comment="" />
+    <list default="true" id="c895bb01-acb7-4e79-b2c9-081d962c26ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/Instruments/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/GuitarTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +29,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1kstTCMEJNVk73XKCIs6UeaBZ6w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -73,9 +79,29 @@
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1606501550024" />
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1606502433644">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1606502433644" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1606502433643">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1606502433643" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1606502433642">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1606502433642" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1606502433643">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1606502433643" />
     <state x="419" y="111" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606501577781">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="419" y="111" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.709@0.23.1280.709" timestamp="1606501577781" />
+    <state x="305" y="56" width="670" height="676" key="search.everywhere.popup" timestamp="1606502087308">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="305" y="56" width="670" height="676" key="search.everywhere.popup/0.23.1280.709@0.23.1280.709" timestamp="1606502087308" />
   </component>
 </project>
