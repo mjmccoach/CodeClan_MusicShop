@@ -1,6 +1,8 @@
 package Instruments;
 
-public abstract class Instrument {
+import Behaviours.ISell;
+
+public abstract class Instrument implements ISell{
     private String make;
     private String colour;
     InstrumentType instrumentType;
@@ -53,5 +55,9 @@ public abstract class Instrument {
 
     public void setRetail(double retail) {
         this.retail = retail;
+    }
+
+    public double calculateMarkUp(double retail, double wholesale) {
+        return retail -= wholesale;
     }
 }

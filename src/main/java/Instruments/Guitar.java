@@ -1,6 +1,8 @@
 package Instruments;
 
-public class Guitar extends Instrument{
+import Behaviours.IPlay;
+
+public class Guitar extends Instrument implements IPlay{
     private int strings;
     private GuitarType guitarType;
 
@@ -24,5 +26,13 @@ public class Guitar extends Instrument{
 
     public void setGuitarType(GuitarType guitarType) {
         this.guitarType = guitarType;
+    }
+
+    public String play() {
+        return "Widdly Widdly Wah!";
+    }
+
+    public Double calculateMarkUp(Double retail, double wholesale) {
+        return retail -= wholesale;
     }
 }

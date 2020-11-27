@@ -21,4 +21,8 @@ public class Drums extends Instrument implements IPlay{
     public String play() {
         return "Bang Bang!";
     }
+
+    public Double calculateMarkUp(Double retail, double wholesale) {
+        return retail -= wholesale;
+    }
 }

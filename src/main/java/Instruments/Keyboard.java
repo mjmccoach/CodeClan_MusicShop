@@ -1,6 +1,8 @@
 package Instruments;
 
-public class Keyboard extends Instrument {
+import Behaviours.IPlay;
+
+public class Keyboard extends Instrument implements IPlay {
     private int keys;
     private int modes;
 
@@ -24,5 +26,13 @@ public class Keyboard extends Instrument {
 
     public void setModes(int modes) {
         this.modes = modes;
+    }
+
+    public String play() {
+        return "Insert Through the Fire and the Flames by Dragonforce";
+    }
+
+    public Double calculateMarkUp(Double retail, double wholesale) {
+        return retail -= wholesale;
     }
 }

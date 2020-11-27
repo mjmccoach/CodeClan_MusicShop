@@ -1,6 +1,8 @@
 package Accessories;
 
-public abstract class Accessory {
+import Behaviours.ISell;
+
+public abstract class Accessory implements ISell{
 
     private String name;
     private double wholesale;
@@ -35,4 +37,5 @@ public abstract class Accessory {
     public void setRetail(double retail) {
         this.retail = retail;
     }
+
 }

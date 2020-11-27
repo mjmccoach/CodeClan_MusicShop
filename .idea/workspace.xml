@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c895bb01-acb7-4e79-b2c9-081d962c26ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviours/IPlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviours/ISell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Behaviours/ISellTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Accessories/Accessory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Accessories/Accessory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Accessories/Drumsticks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Accessories/Drumsticks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Accessories/Plectrum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Accessories/Plectrum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Accessories/SheetMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Accessories/SheetMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Drums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Drums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Instruments/DrumsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/DrumsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Accessories/AccessoriesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Accessories/AccessoriesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Accessories/Accessory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Accessories/Accessory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Accessories/Drumsticks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Accessories/Drumsticks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Accessories/Plectrum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Accessories/Plectrum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Accessories/SheetMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Accessories/SheetMusic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Instruments/Drums.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Instruments/Drums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Instruments/Guitar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Instruments/Guitar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Instruments/Instrument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Instruments/Instrument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Instruments/Keyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Instruments/Keyboard.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,22 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.DrumsTest">
-    <configuration name="AccessoriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanMusicShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Accessories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Accessories" />
-      <option name="MAIN_CLASS_NAME" value="Accessories.AccessoriesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ISellTest.canMarkUpAccessories">
     <configuration name="AccessoriesTest.canSetRetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanMusicShop" />
       <extension name="coverage">
@@ -94,43 +93,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ISellTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanMusicShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Instruments.*" />
+          <option name="PATTERN" value="Behaviours.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Instruments" />
-      <option name="MAIN_CLASS_NAME" value="Instruments.GuitarTest" />
+      <option name="PACKAGE_NAME" value="Behaviours" />
+      <option name="MAIN_CLASS_NAME" value="Behaviours.ISellTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyboardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ISellTest.canMarkUpAccessories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanMusicShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Instruments.*" />
+          <option name="PATTERN" value="Behaviours.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Instruments" />
-      <option name="MAIN_CLASS_NAME" value="Instruments.KeyboardTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Behaviours" />
+      <option name="MAIN_CLASS_NAME" value="Behaviours.ISellTest" />
+      <option name="METHOD_NAME" value="canMarkUpAccessories" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ISellTest.canMarkUpInstruments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanMusicShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Behaviours.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Behaviours" />
+      <option name="MAIN_CLASS_NAME" value="Behaviours.ISellTest" />
+      <option name="METHOD_NAME" value="canMarkUpInstruments" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ISellTest.canMarkUpAccessories" />
+        <item itemvalue="JUnit.ISellTest" />
+        <item itemvalue="JUnit.ISellTest.canMarkUpInstruments" />
         <item itemvalue="JUnit.DrumsTest" />
         <item itemvalue="JUnit.AccessoriesTest.canSetRetail" />
-        <item itemvalue="JUnit.AccessoriesTest" />
-        <item itemvalue="JUnit.KeyboardTest" />
-        <item itemvalue="JUnit.GuitarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -148,26 +164,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1606507616762">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1606508843784">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1606507616762" />
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1606507682904">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1606508843784" />
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1606508904557">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1606507682904" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1606507682903">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1606508904557" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1606508904555">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1606507682903" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1606507682903">
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1606508904555" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1606508904554">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1606507682903" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1606507682904">
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1606508904554" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1606508904556">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1606507682904" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1606508904556" />
     <state x="419" y="111" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606501577781">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
