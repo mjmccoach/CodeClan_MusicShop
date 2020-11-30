@@ -10,6 +10,7 @@ public class Guitar extends Instrument implements IPlay{
         super(make, colour, instrumentType, wholesale, retail);
         this.strings = strings;
         this.guitarType = guitarType;
+        //In subclasses have to implement the superclasses' properties and they have to go first in the constructor
     }
 
     public int getStrings() {
@@ -31,8 +32,10 @@ public class Guitar extends Instrument implements IPlay{
     public String play() {
         return "Widdly Widdly Wah!";
     }
+    //This class implements IPlay therefore has to have the IPlay methods.
 
     public Double calculateMarkUp(Double retail, double wholesale) {
         return retail -= wholesale;
     }
+    //This class implements ISell therefore has to have the ISell methods.
 }

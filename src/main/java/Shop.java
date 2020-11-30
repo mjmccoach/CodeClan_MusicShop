@@ -24,13 +24,7 @@ public class Shop {
         return this.stock.size();
     }
 
-    x
-
-//    public double calculateProfit() {
-//        double totalProfit = 0;
-//
-//        for(stockItem : this.stock) {
-//            totalProfit += stockItem.calculateMarkUp();
-//        }
-//    }
+    public String getName() {
+        return name;
+    }
 }

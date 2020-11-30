@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c895bb01-acb7-4e79-b2c9-081d962c26ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Accessories/Accessory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Accessories/Accessory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Accessories/Drumsticks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Accessories/Drumsticks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Accessories/Plectrum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Accessories/Plectrum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Accessories/SheetMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Accessories/SheetMusic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Behaviours/IPlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Behaviours/IPlay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Behaviours/ISell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Behaviours/ISell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Instruments/Drums.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Instruments/Drums.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Instruments/Guitar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Instruments/Guitar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Instruments/GuitarType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Instruments/GuitarType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Instruments/Instrument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Instruments/Instrument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Instruments/InstrumentType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Instruments/InstrumentType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Instruments/Keyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Instruments/Keyboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Accessories/AccessoriesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Accessories/AccessoriesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Instruments/DrumsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Instruments/DrumsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Instruments/GuitarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Instruments/GuitarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Instruments/KeyboardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Instruments/KeyboardTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Accessories/Drumsticks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Accessories/Drumsticks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Accessories/Plectrum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Accessories/Plectrum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Accessories/SheetMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Accessories/SheetMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Drums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Drums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/GuitarType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/GuitarType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,10 +147,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1606508843784">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1606728875973">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1606508843784" />
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1606728875973" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1606575918153">
       <screen x="0" y="23" width="1280" height="709" />
     </state>

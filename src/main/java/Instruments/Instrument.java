@@ -60,4 +60,6 @@ public abstract class Instrument implements ISell{
     public double calculateMarkUp(double retail, double wholesale) {
         return retail -= wholesale;
     }
+    //This class implements IPlay therefore has to have the IPlay methods.
+
 }

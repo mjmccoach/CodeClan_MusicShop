@@ -31,8 +31,12 @@ public class Keyboard extends Instrument implements IPlay {
     public String play() {
         return "Insert Through the Fire and the Flames by Dragonforce";
     }
+    //This class implements IPlay therefore has to have the IPlay methods.
+
 
     public Double calculateMarkUp(Double retail, double wholesale) {
         return retail -= wholesale;
     }
+    //This class implements ISell therefore has to have the ISell methods.
+
 }
